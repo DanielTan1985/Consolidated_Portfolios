@@ -91,8 +91,9 @@
     font-size: 0.75rem;
   }
   
+
   input, textarea {
-    color:rgb(250, 249, 246);
+    color:rgb(255, 255, 255);
     font-weight: 500;
     background: var(--bg-color);
     border: none;
