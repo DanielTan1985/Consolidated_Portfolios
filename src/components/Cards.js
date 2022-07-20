@@ -16,7 +16,7 @@ function Cards() {
               path='/portfolios/PF01'
             /> */}
             <CardItem
-              src={require('./image/CardsPF02.PNG')}
+              src={require('./image/CardsPF02.png')}
               text='Javascript, Node.js, Github, Heroku, Postgres'
               label='Backend Node.js (Collaboration)'
               path='/portfolios/PF02'
@@ -30,13 +30,13 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src={require('./image/CardsPF04.JPG')}
+              src={require('./image/CardsPF04.jpg')}
               text='Javascript, Html, Css, Github'
               label='Pet project (Personal)'
               path='/portfolios/PF04'
             />
             <CardItem
-              src={require('./image/CardsPF05.PNG')}
+              src={require('./image/CardsPF05.png')}
               text='Javascript, Node.js, Github, Postgres, AWS'
               label='Frontend + Backend Node.js (Personal)'
               path='/portfolios/PF05'
