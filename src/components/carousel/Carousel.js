@@ -54,6 +54,7 @@ function Carousel({
         clearInterval(interval);
       };
     }
+// eslint-disable-next-line
   }, [isPaused, change]);
 
   function scrollTo(el) {
@@ -101,6 +102,7 @@ function Carousel({
     if (slides[slideIndex] !== undefined)
       slides[slideIndex].style.display = "block";
     if (dots[slideIndex] !== undefined) dots[slideIndex].className += " active";
+// eslint-disable-next-line
   }, [slide, isPaused]);
 
   return (

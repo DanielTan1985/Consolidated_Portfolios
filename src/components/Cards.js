@@ -23,7 +23,7 @@ function Cards() {
             />
             <CardItem
               src={require('./image/CardsPF03.png')}
-              text='Javascript, React Native, Github, Heroku, Postgres'
+              text='Javascript, React Native, Github, Postgres, Heroku'
               label='Frontend React Native (Collaboration)'
               path='/portfolios/PF03'
             />
@@ -36,9 +36,9 @@ function Cards() {
               path='/portfolios/PF04'
             />
             <CardItem
-              src={require('./image/CardsPF04.JPG')}
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              src={require('./image/CardsPF05.PNG')}
+              text='Javascript, Node.js, Github, Postgres, AWS'
+              label='Frontend + Backend Node.js (Personal)'
               path='/portfolios/PF05'
             />
             <CardItem

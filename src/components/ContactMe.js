@@ -31,11 +31,11 @@ function ContactMe5() {
       .then(
         (result) => {
           console.log(result.text);
-          alert("SUCCESS!");
+          alert("Thank you for your message!, I will get back to you Asap!");
         },
         (error) => {
           console.log(error.text);
-          alert("FAILED...", error);
+          alert("I am very sorry, it seems that something went wrong", error);
         }
       );
       reset();
