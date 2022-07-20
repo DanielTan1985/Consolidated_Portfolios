@@ -3,7 +3,7 @@ To ensure the functionality of ContactMe.js, please be reminded to include your 
 
 REACT_APP_serviceID = ***\
 REACT_APP_templateID = ***\
-REACT_APP_publicKey = ***\
+REACT_APP_publicKey = ***
 
 # Getting Started with Create React App
 
