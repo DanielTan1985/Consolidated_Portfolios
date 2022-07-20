@@ -1,0 +1,8 @@
+.stretch {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }

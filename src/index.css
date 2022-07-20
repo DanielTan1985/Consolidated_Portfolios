@@ -12,9 +12,9 @@ html {
 	color: #fff;
 }
 
-body {
+.Login-Container,.MainRegister-Container{
 	min-height: 100vh;
-	background-image: url("https://static01.nyt.com/images/2021/01/17/multimedia/15aroundtheworld-singapore15/15aroundtheworld-singapore15-superJumbo.jpg");
+	opacity: 2.0;
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -22,22 +22,24 @@ body {
 	/* background-color: rgb(115, 215, 255);*/ 
 }
 
-.App {
+.MainLogin-Container,.MainRegister-Container{
+	background-image: url("https://static01.nyt.com/images/2021/01/17/multimedia/15aroundtheworld-singapore15/15aroundtheworld-singapore15-superJumbo.jpg");
 	display: flex;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
 	padding: 1rem 0.5rem;
 }
 
 section {
-	width: 100%;
-	max-width: 420px;
-	min-height: 400px;
+	width: 45%;
+	max-width: 100%;
+	min-height: auto;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
 	padding: 1rem;
 	background-color: rgba(0, 0, 0, 0.4);
 }
@@ -56,13 +58,30 @@ a:visited {
 }
 
 input[type='text'],
-input[type='password'],
-button,
+input[type='password']{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+	color: #fff;
+	font-size: 1.2rem;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.btn-Login,.btn-Register {
+	font-family: 'Nunito', sans-serif;
+	font-size: 22px;
+	padding: 0.25rem;
+	border-radius: 0.5rem;
+	margin-left: 175px;
+}
+
 textarea {
 	font-family: 'Nunito', sans-serif;
 	font-size: 22px;
 	padding: 0.25rem;
 	border-radius: 0.5rem;
+	
 }
 
 label,

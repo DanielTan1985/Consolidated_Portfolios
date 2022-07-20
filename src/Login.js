@@ -1,3 +1,5 @@
+import React from 'react';
+import './index.css';
 import { useRef, useState, useEffect, useContext } from 'react';
 import AuthContext from './context/AuthProvider';
 
@@ -31,7 +33,7 @@ const Login = () => {
 				JSON.stringify({ username, password }),
 				{
 					headers: { 'Content-Type': 'application/json' },
-					withCredentials: true,
+					// withCredentials: true,
 				}
 			);
 
@@ -56,7 +58,7 @@ const Login = () => {
 	};
 
 	return (
-		<>
+		<div className='MainLogin-Container'>
 			{success ? (
 				<section>
 					<h1>You are logged in!</h1>
@@ -64,7 +66,7 @@ const Login = () => {
 					<p>{/* <a href="#">Go to Home</a> */}</p>
 				</section>
 			) : (
-				<section>
+				<section className="Login-Container">
 					<p
 						ref={errRef}
 						className={errMsg ? 'errmsg' : 'offscreen'}
@@ -72,8 +74,8 @@ const Login = () => {
 					>
 						{errMsg}
 					</p>
-					<h1>Sign In</h1>
-					<form onSubmit={handleSubmit}>
+					<h1>Login</h1>
+					<form id='login-form' onSubmit={handleSubmit}>
 						<label htmlFor="username">Username:</label>
 						<input
 							type="text"
@@ -93,18 +95,18 @@ const Login = () => {
 							value={password}
 							required
 						/>
-						<button>Sign In</button>
+						<button className="btn-Login">Sign In</button>
 					</form>
 					<p>
 						Need an Account?
 						<br />
 						<span className="line">
-							<a href="/">Sign Up</a>
+							<a href="/Register">Sign Up</a>
 						</span>
 					</p>
 				</section>
 			)}
-		</>
+		</div>
 	);
 };
 

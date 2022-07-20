@@ -1,3 +1,5 @@
+import React from 'react';
+import './index.css';
 import { useRef, useState, useEffect } from 'react';
 import {
 	faCheck,
@@ -96,7 +98,7 @@ const Register = () => {
 	};
 
 	return (
-		<>
+		<div className='MainRegister-Container'>
 			{success ? (
 				<Login />
 			) : (
@@ -257,7 +259,7 @@ const Register = () => {
 							Must match the first password input field.
 						</p>
 
-						<button
+						<button className="btn-Register"
 							disabled={!validName || !validEmail || !validPassword || !validMatch ? true : false}
 						>
 							Sign Up
@@ -272,7 +274,7 @@ const Register = () => {
 					</p>
 				</section>
 			)}
-		</>
+		</div>
 	);
 };
 
