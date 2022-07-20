@@ -16,13 +16,13 @@ function Cards() {
               path='/portfolios/PF01'
             /> */}
             <CardItem
-              src={require('./image/CardsPF02.PNG')}
+              src='https://i.postimg.cc/KY36ZvpR/1.png'
               text='Javascript, Node.js, Github, Heroku, Postgres'
               label='Backend Node.js (Collaboration)'
               path='/portfolios/PF02'
             />
             <CardItem
-              src={require('./image/CardsPF03.png')}
+              src='https://i.postimg.cc/L5zgW6C9/1.png'
               text='Javascript, React Native, Github, Postgres, Heroku'
               label='Frontend React Native (Collaboration)'
               path='/portfolios/PF03'
@@ -30,13 +30,13 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src={require('./image/CardsPF04.JPG')}
+              src='https://i.postimg.cc/B6DwmkFT/1.png'
               text='Javascript, Html, Css, Github'
               label='Pet project (Personal)'
               path='/portfolios/PF04'
             />
             <CardItem
-              src={require('./image/CardsPF05.PNG')}
+              src='https://i.postimg.cc/5ybCQKM9/1.png'
               text='Javascript, Node.js, Github, Postgres, AWS'
               label='Frontend + Backend Node.js (Personal)'
               path='/portfolios/PF05'

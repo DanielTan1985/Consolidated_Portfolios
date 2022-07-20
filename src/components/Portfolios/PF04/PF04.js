@@ -3,31 +3,32 @@ import '../../carousel/carousel.css';
 import  Carousel  from "../../carousel/Carousel";
 import  PF04Writeup from "./PF04Writeup";
 import Cards from '../../Cards';
+///images/ImgPF04/1.PNG
 
 function PF04() {
   const data = [
     {
-      image : '/images/ImgPF04/1.PNG',
+      image : 'https://i.postimg.cc/B6DwmkFT/1.png',
       caption: `<div> Pet project (Personal)</div>`,
     },
     {
-      image: "/images/ImgPF04/2.JPG",
+      image: "https://i.postimg.cc/mkjjqsgH/2.jpg",
       caption: "<div></div>",
     },
     {
-      image: "/images/ImgPF04/3.PNG",
+      image: "https://i.postimg.cc/fW1Yzy6R/3.png",
       caption: "<div></div>",
     },
     {
-      image: "/images/ImgPF04/4.PNG",
+      image: "https://i.postimg.cc/ZRG0SBCk/4.png",
       caption: "<div></div>",
     },
     {
-      image: "/images/ImgPF04/5.PNG",
+      image: "https://i.postimg.cc/kGPMH0pq/5.png",
       caption: "<div></div>",
     },
     {
-      image: "/images/ImgPF04/6.PNG",
+      image: "https://i.postimg.cc/hGmHYXWQ/6.png",
       caption: "<div> </div>",
     },
   ];

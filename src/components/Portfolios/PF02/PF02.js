@@ -3,35 +3,36 @@ import '../../carousel/carousel.css';
 import  Carousel  from "../../carousel/Carousel";
 import  PF02Writeup from "./PF02Writeup";
 import Cards from '../../Cards';
+//image : "/images/ImgPF02/1.PNG",
 
 function PF02() {
   const data = [
     {
-      image : '/images/ImgPF02/1.PNG',
+      image : "https://i.postimg.cc/KY36ZvpR/1.png",
       caption: `<div> Backend Node.js (Collaboration)</div>`,
     },
     {
-      image: "/images/ImgPF02/2.PNG",
+      image: "https://i.postimg.cc/Jh8NhpPZ/2.png",
       caption: "<div></div>",
     },
     {
-      image: "/images/ImgPF02/3.PNG",
+      image: "https://i.postimg.cc/y8HjJ6ND/3.png",
       caption: "<div></div>",
     },
     {
-      image: "/images/ImgPF02/4.PNG",
+      image: "https://i.postimg.cc/mDtyxtm5/4.png",
       caption: "<div></div>",
     },
     {
-      image: "/images/ImgPF02/5.PNG",
+      image: "https://i.postimg.cc/d1bdznkh/5.png",
       caption: "<div></div>",
     },
     {
-        image: "/images/ImgPF02/6.PNG",
+        image: "https://i.postimg.cc/tT28Q4Ft/6.png",
         caption: "<div></div>",
       },
     {
-    image: "/images/ImgPF02/7.PNG",
+    image: "https://i.postimg.cc/7Yyts7v8/7.png",
     caption: "<div></div>",
     },
   ];

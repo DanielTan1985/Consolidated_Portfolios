@@ -3,43 +3,44 @@ import '../../carousel/carousel.css';
 import  Carousel  from "../../carousel/Carousel";
 import  PF03Writeup from "./PF03Writeup";
 import Cards from '../../Cards';
+///images/ImgPF03/1.PNG
 
 function PF03() {
   const data = [
     {
-      image: "/images/ImgPF03/S1.PNG",
+      image: "https://i.postimg.cc/L5zgW6C9/1.png",
       caption: `<div> Frontend React Native (Collaboration) </div>`,
     },
     {
-      image: "/images/ImgPF03/S2.PNG",
+      image: "https://i.postimg.cc/vByszYVL/2.png",
       caption: "<div></div>",
     },
     {
-      image: "/images/ImgPF03/S3.PNG",
+      image: "https://i.postimg.cc/9Xx64tJB/3.png",
       caption: "<div></div>",
     },
     {
-      image: "/images/ImgPF03/S4.PNG",
+      image: "https://i.postimg.cc/PJrNSzw4/4.png",
       caption: "<div></div>",
     },
     {
-      image: "/images/ImgPF03/S5.PNG",
+      image: "https://i.postimg.cc/nrPV08ZF/5.png",
       caption: "<div></div>",
     },
     {
-      image: "/images/ImgPF03/S6.PNG",
+      image: "https://i.postimg.cc/wB4668yh/6.png",
       caption: "<div> </div>",
     },
     {
-        image: "/images/ImgPF03/7.PNG",
+        image: "https://i.postimg.cc/2S2YwRxP/7.png",
         caption: "<div> </div>",
     },
     {
-        image: "/images/ImgPF03/8.PNG",
+        image: "https://i.postimg.cc/c1wNz8m7/8.png",
         caption: "<div> </div>",
       },
       {
-        image: "/images/ImgPF03/9.PNG",
+        image: "https://i.postimg.cc/2yFMShcP/9.png",
         caption: "<div> </div>",
       },
   ];
