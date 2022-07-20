@@ -1,9 +1,9 @@
 Please be reminded that .env credentials @ root location has been included to .gitignore
 To ensure the functionality of ContactMe.js, please be reminded to include your own credentials accordingly if necessary.
 
-REACT_APP_serviceID = 
-REACT_APP_templateID = 
-REACT_APP_publicKey = 
+REACT_APP_serviceID = ***\
+REACT_APP_templateID = ***\
+REACT_APP_publicKey = ***\
 
 # Getting Started with Create React App
 
