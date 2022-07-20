@@ -2,6 +2,7 @@ import React from "react";
 import '../../carousel/carousel.css';
 import  Carousel  from "../../carousel/Carousel";
 import  PF04Writeup from "./PF04Writeup";
+import Cards from '../../Cards';
 
 function PF04() {
   const data = [
@@ -78,6 +79,7 @@ function PF04() {
         </div>
       </div>
       <><PF04Writeup /></>
+      <Cards />
     </div>
        
   );

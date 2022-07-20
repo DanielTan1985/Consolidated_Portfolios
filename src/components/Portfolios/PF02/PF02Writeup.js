@@ -9,8 +9,17 @@ function PF02Writeup() {
       <span className="PF4WU-caption">Project Link:
        <span className="PF4WU-context"> <a href="https://github.com/DanielTan1985/Group-1_Project-3" target="_blank" rel="noopener noreferrer">Github Link</a></span></span>
 
-        <span className="PF4WU-caption">Language:
-          <span className="PF4WU-context">Javascript, CSS, HTML </span></span>
+    <span className="PF4WU-caption">Language:
+      <span className="PF4WU-context">Javascript, CSS, HTML </span></span>
+
+    <span className="PF4WU-caption">Version Control: 
+      <span className="PF4WU-context">Git/Github </span></span>
+
+    <span className="PF4WU-caption">Cloud Application Platform: 
+      <span className="PF4WU-context">Heroku </span></span>
+
+    <span className="PF4WU-caption">Database System: 
+      <span className="PF4WU-context">PostgresSQL </span></span>
 
     <span className="PF4WU-caption">Library: 
       <span className="PF4WU-context">Node.JS </span></span>
